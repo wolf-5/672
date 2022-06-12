@@ -1,4 +1,4 @@
-function jailbreak(){
+function jailbreaknew(){
 var ropchain_array = new Uint32Array(99998);
 var ropchain = read_ptr_at(addrof(ropchain_array)+0x10);
 var ropchain_offset = 2;
@@ -56868,7 +56868,11 @@ var printf_ans = read_mem_as_string(printf_buf, printf_buf_end-printf_buf);
 var _ = malloc_nogc.pop();
 var _ = malloc_nogc.pop();
 var _ = malloc_nogc.pop();
-if(main_ret==179||main_ret==0)
-{window.msgs.innerHTML="<h1 style='font-size:30px;text-align:center;'>jailbreak 100/100 OK ✔</h1>";} 
-else
-{window.msgs.innerHTML="<h1 style='font-size:30px;text-align:center;'>Jailbreak failed! - Reboot your PS4 and try again.</h1>";}}
+if (main_ret == 179 || main_ret == 0){
+	window.msgs.innerHTML="<h1>"+LoadedMSG+"</h1>";
+} 
+else {
+	window.msgs.innerHTML="<h1>Failed to Load Jailbreak! - Restart your Console.</h1>";
+	return;
+}
+}
