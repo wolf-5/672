@@ -1,5 +1,5 @@
 CACHE MANIFEST 
-# The Wolf Host 672 ( Sun 06/12/2022 )
+# The Wolf Host 672 ( Sun 07/17/2022 )
 
 app2usb.bin
 Backup.bin
@@ -16,6 +16,7 @@ frontend.js
 ftp.bin
 goldhen212.bin
 goldhen222.bin
+goldhen23b2.bin
 GTA100.bin
 GTA127.bin
 GTA132.bin
